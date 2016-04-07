@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32F75EC41CB64090006DFD12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EC31CB64090006DFD12 /* main.m */; };
+		32F75EC71CB64090006DFD12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EC61CB64090006DFD12 /* AppDelegate.m */; };
+		32F75ECA1CB64090006DFD12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EC91CB64090006DFD12 /* ViewController.m */; };
+		32F75ECD1CB64090006DFD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F75ECB1CB64090006DFD12 /* Main.storyboard */; };
+		32F75ECF1CB64090006DFD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F75ECE1CB64090006DFD12 /* Assets.xcassets */; };
+		32F75ED21CB64090006DFD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F75ED01CB64090006DFD12 /* LaunchScreen.storyboard */; };
+		32F75EDD1CB64090006DFD12 /* LuxQEdgeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EDC1CB64090006DFD12 /* LuxQEdgeLabelTests.m */; };
+		32F75EE81CB64090006DFD12 /* LuxQEdgeLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EE71CB64090006DFD12 /* LuxQEdgeLabelUITests.m */; };
+		32F75EF71CB640AB006DFD12 /* LuxQEdgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EF61CB640AB006DFD12 /* LuxQEdgeLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32F75ED91CB64090006DFD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F75EB71CB64090006DFD12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F75EBE1CB64090006DFD12;
+			remoteInfo = LuxQEdgeLabel;
+		};
+		32F75EE41CB64090006DFD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F75EB71CB64090006DFD12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F75EBE1CB64090006DFD12;
+			remoteInfo = LuxQEdgeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32F75EBF1CB64090006DFD12 /* LuxQEdgeLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuxQEdgeLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F75EC31CB64090006DFD12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32F75EC51CB64090006DFD12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32F75EC61CB64090006DFD12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32F75EC81CB64090006DFD12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32F75EC91CB64090006DFD12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32F75ECC1CB64090006DFD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32F75ECE1CB64090006DFD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32F75ED11CB64090006DFD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32F75ED31CB64090006DFD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F75ED81CB64090006DFD12 /* LuxQEdgeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxQEdgeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F75EDC1CB64090006DFD12 /* LuxQEdgeLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuxQEdgeLabelTests.m; sourceTree = "<group>"; };
+		32F75EDE1CB64090006DFD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F75EE31CB64090006DFD12 /* LuxQEdgeLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxQEdgeLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F75EE71CB64090006DFD12 /* LuxQEdgeLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuxQEdgeLabelUITests.m; sourceTree = "<group>"; };
+		32F75EE91CB64090006DFD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F75EF51CB640AB006DFD12 /* LuxQEdgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxQEdgeLabel.h; sourceTree = "<group>"; };
+		32F75EF61CB640AB006DFD12 /* LuxQEdgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuxQEdgeLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F75EBC1CB64090006DFD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F75ED51CB64090006DFD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F75EE01CB64090006DFD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F75EB61CB64090006DFD12 = {
+			isa = PBXGroup;
+			children = (
+				32F75EC11CB64090006DFD12 /* LuxQEdgeLabel */,
+				32F75EDB1CB64090006DFD12 /* LuxQEdgeLabelTests */,
+				32F75EE61CB64090006DFD12 /* LuxQEdgeLabelUITests */,
+				32F75EC01CB64090006DFD12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32F75EC01CB64090006DFD12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F75EBF1CB64090006DFD12 /* LuxQEdgeLabel.app */,
+				32F75ED81CB64090006DFD12 /* LuxQEdgeLabelTests.xctest */,
+				32F75EE31CB64090006DFD12 /* LuxQEdgeLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32F75EC11CB64090006DFD12 /* LuxQEdgeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				32F75EF51CB640AB006DFD12 /* LuxQEdgeLabel.h */,
+				32F75EF61CB640AB006DFD12 /* LuxQEdgeLabel.m */,
+				32F75EC51CB64090006DFD12 /* AppDelegate.h */,
+				32F75EC61CB64090006DFD12 /* AppDelegate.m */,
+				32F75EC81CB64090006DFD12 /* ViewController.h */,
+				32F75EC91CB64090006DFD12 /* ViewController.m */,
+				32F75ECB1CB64090006DFD12 /* Main.storyboard */,
+				32F75ECE1CB64090006DFD12 /* Assets.xcassets */,
+				32F75ED01CB64090006DFD12 /* LaunchScreen.storyboard */,
+				32F75ED31CB64090006DFD12 /* Info.plist */,
+				32F75EC21CB64090006DFD12 /* Supporting Files */,
+			);
+			path = LuxQEdgeLabel;
+			sourceTree = "<group>";
+		};
+		32F75EC21CB64090006DFD12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F75EC31CB64090006DFD12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F75EDB1CB64090006DFD12 /* LuxQEdgeLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				32F75EDC1CB64090006DFD12 /* LuxQEdgeLabelTests.m */,
+				32F75EDE1CB64090006DFD12 /* Info.plist */,
+			);
+			path = LuxQEdgeLabelTests;
+			sourceTree = "<group>";
+		};
+		32F75EE61CB64090006DFD12 /* LuxQEdgeLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32F75EE71CB64090006DFD12 /* LuxQEdgeLabelUITests.m */,
+				32F75EE91CB64090006DFD12 /* Info.plist */,
+			);
+			path = LuxQEdgeLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F75EBE1CB64090006DFD12 /* LuxQEdgeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F75EEC1CB64090006DFD12 /* Build configuration list for PBXNativeTarget "LuxQEdgeLabel" */;
+			buildPhases = (
+				32F75EBB1CB64090006DFD12 /* Sources */,
+				32F75EBC1CB64090006DFD12 /* Frameworks */,
+				32F75EBD1CB64090006DFD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuxQEdgeLabel;
+			productName = LuxQEdgeLabel;
+			productReference = 32F75EBF1CB64090006DFD12 /* LuxQEdgeLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32F75ED71CB64090006DFD12 /* LuxQEdgeLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F75EEF1CB64090006DFD12 /* Build configuration list for PBXNativeTarget "LuxQEdgeLabelTests" */;
+			buildPhases = (
+				32F75ED41CB64090006DFD12 /* Sources */,
+				32F75ED51CB64090006DFD12 /* Frameworks */,
+				32F75ED61CB64090006DFD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F75EDA1CB64090006DFD12 /* PBXTargetDependency */,
+			);
+			name = LuxQEdgeLabelTests;
+			productName = LuxQEdgeLabelTests;
+			productReference = 32F75ED81CB64090006DFD12 /* LuxQEdgeLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32F75EE21CB64090006DFD12 /* LuxQEdgeLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F75EF21CB64090006DFD12 /* Build configuration list for PBXNativeTarget "LuxQEdgeLabelUITests" */;
+			buildPhases = (
+				32F75EDF1CB64090006DFD12 /* Sources */,
+				32F75EE01CB64090006DFD12 /* Frameworks */,
+				32F75EE11CB64090006DFD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F75EE51CB64090006DFD12 /* PBXTargetDependency */,
+			);
+			name = LuxQEdgeLabelUITests;
+			productName = LuxQEdgeLabelUITests;
+			productReference = 32F75EE31CB64090006DFD12 /* LuxQEdgeLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32F75EB71CB64090006DFD12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = L.Q;
+				TargetAttributes = {
+					32F75EBE1CB64090006DFD12 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					32F75ED71CB64090006DFD12 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32F75EBE1CB64090006DFD12;
+					};
+					32F75EE21CB64090006DFD12 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32F75EBE1CB64090006DFD12;
+					};
+				};
+			};
+			buildConfigurationList = 32F75EBA1CB64090006DFD12 /* Build configuration list for PBXProject "LuxQEdgeLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32F75EB61CB64090006DFD12;
+			productRefGroup = 32F75EC01CB64090006DFD12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F75EBE1CB64090006DFD12 /* LuxQEdgeLabel */,
+				32F75ED71CB64090006DFD12 /* LuxQEdgeLabelTests */,
+				32F75EE21CB64090006DFD12 /* LuxQEdgeLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32F75EBD1CB64090006DFD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F75ED21CB64090006DFD12 /* LaunchScreen.storyboard in Resources */,
+				32F75ECF1CB64090006DFD12 /* Assets.xcassets in Resources */,
+				32F75ECD1CB64090006DFD12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F75ED61CB64090006DFD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F75EE11CB64090006DFD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F75EBB1CB64090006DFD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F75ECA1CB64090006DFD12 /* ViewController.m in Sources */,
+				32F75EC71CB64090006DFD12 /* AppDelegate.m in Sources */,
+				32F75EC41CB64090006DFD12 /* main.m in Sources */,
+				32F75EF71CB640AB006DFD12 /* LuxQEdgeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F75ED41CB64090006DFD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F75EDD1CB64090006DFD12 /* LuxQEdgeLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F75EDF1CB64090006DFD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F75EE81CB64090006DFD12 /* LuxQEdgeLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32F75EDA1CB64090006DFD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F75EBE1CB64090006DFD12 /* LuxQEdgeLabel */;
+			targetProxy = 32F75ED91CB64090006DFD12 /* PBXContainerItemProxy */;
+		};
+		32F75EE51CB64090006DFD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F75EBE1CB64090006DFD12 /* LuxQEdgeLabel */;
+			targetProxy = 32F75EE41CB64090006DFD12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32F75ECB1CB64090006DFD12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F75ECC1CB64090006DFD12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32F75ED01CB64090006DFD12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F75ED11CB64090006DFD12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32F75EEA1CB64090006DFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32F75EEB1CB64090006DFD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32F75EED1CB64090006DFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuxQEdgeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.LuxQEdgeLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32F75EEE1CB64090006DFD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuxQEdgeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.LuxQEdgeLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32F75EF01CB64090006DFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuxQEdgeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.LuxQEdgeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuxQEdgeLabel.app/LuxQEdgeLabel";
+			};
+			name = Debug;
+		};
+		32F75EF11CB64090006DFD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuxQEdgeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.LuxQEdgeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuxQEdgeLabel.app/LuxQEdgeLabel";
+			};
+			name = Release;
+		};
+		32F75EF31CB64090006DFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuxQEdgeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.LuxQEdgeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuxQEdgeLabel;
+			};
+			name = Debug;
+		};
+		32F75EF41CB64090006DFD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuxQEdgeLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Just.LuxQEdgeLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LuxQEdgeLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32F75EBA1CB64090006DFD12 /* Build configuration list for PBXProject "LuxQEdgeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F75EEA1CB64090006DFD12 /* Debug */,
+				32F75EEB1CB64090006DFD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F75EEC1CB64090006DFD12 /* Build configuration list for PBXNativeTarget "LuxQEdgeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F75EED1CB64090006DFD12 /* Debug */,
+				32F75EEE1CB64090006DFD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32F75EEF1CB64090006DFD12 /* Build configuration list for PBXNativeTarget "LuxQEdgeLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F75EF01CB64090006DFD12 /* Debug */,
+				32F75EF11CB64090006DFD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32F75EF21CB64090006DFD12 /* Build configuration list for PBXNativeTarget "LuxQEdgeLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F75EF31CB64090006DFD12 /* Debug */,
+				32F75EF41CB64090006DFD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32F75EB71CB64090006DFD12 /* Project object */;
+}
