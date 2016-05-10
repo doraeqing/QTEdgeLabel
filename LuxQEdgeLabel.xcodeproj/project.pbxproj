@@ -11,7 +11,6 @@
 		32F75EC71CB64090006DFD12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EC61CB64090006DFD12 /* AppDelegate.m */; };
 		32F75ECA1CB64090006DFD12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EC91CB64090006DFD12 /* ViewController.m */; };
 		32F75ECD1CB64090006DFD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F75ECB1CB64090006DFD12 /* Main.storyboard */; };
-		32F75ECF1CB64090006DFD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F75ECE1CB64090006DFD12 /* Assets.xcassets */; };
 		32F75ED21CB64090006DFD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F75ED01CB64090006DFD12 /* LaunchScreen.storyboard */; };
 		32F75EDD1CB64090006DFD12 /* LuxQEdgeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EDC1CB64090006DFD12 /* LuxQEdgeLabelTests.m */; };
 		32F75EE81CB64090006DFD12 /* LuxQEdgeLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F75EE71CB64090006DFD12 /* LuxQEdgeLabelUITests.m */; };
@@ -43,7 +42,6 @@
 		32F75EC81CB64090006DFD12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		32F75EC91CB64090006DFD12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		32F75ECC1CB64090006DFD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32F75ECE1CB64090006DFD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F75ED11CB64090006DFD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32F75ED31CB64090006DFD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32F75ED81CB64090006DFD12 /* LuxQEdgeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxQEdgeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +109,6 @@
 				32F75EC81CB64090006DFD12 /* ViewController.h */,
 				32F75EC91CB64090006DFD12 /* ViewController.m */,
 				32F75ECB1CB64090006DFD12 /* Main.storyboard */,
-				32F75ECE1CB64090006DFD12 /* Assets.xcassets */,
 				32F75ED01CB64090006DFD12 /* LaunchScreen.storyboard */,
 				32F75ED31CB64090006DFD12 /* Info.plist */,
 				32F75EC21CB64090006DFD12 /* Supporting Files */,
@@ -249,7 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F75ED21CB64090006DFD12 /* LaunchScreen.storyboard in Resources */,
-				32F75ECF1CB64090006DFD12 /* Assets.xcassets in Resources */,
 				32F75ECD1CB64090006DFD12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +498,7 @@
 				32F75EEE1CB64090006DFD12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F75EEF1CB64090006DFD12 /* Build configuration list for PBXNativeTarget "LuxQEdgeLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +507,7 @@
 				32F75EF11CB64090006DFD12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F75EF21CB64090006DFD12 /* Build configuration list for PBXNativeTarget "LuxQEdgeLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +516,7 @@
 				32F75EF41CB64090006DFD12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
